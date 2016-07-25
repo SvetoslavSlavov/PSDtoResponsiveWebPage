@@ -1,0 +1,351 @@
+body{
+	background: url('Background.jpg');
+}
+img{
+	max-width: 100%;
+}
+/*************Header*****************/
+#logo{
+	display: block;
+	margin-top: 21px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*************Header Navigation*************/
+#header-nav{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin-right: 430px;
+}
+#header-nav nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+@font-face {
+    font-family: Tahoma;
+    src: url(tahoma.ttf);
+}
+
+#header-nav nav ul li a{
+	text-decoration: none;
+	color: #5a5a5a;
+	font-family: Tahoma;
+}
+#header-nav nav ul li a:hover{
+	text-decoration: underline;
+}
+/*************Main Navigation***************/
+#main-nav{
+	margin-top: 15px;
+    margin-left: 430px;
+    margin-right: 430px;
+}
+#main-nav ul{
+	min-height: 39px;
+    text-align: center;
+    background: url(navigation.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+	box-shadow: 0px 33px 25px -16px #cdcdcd;
+}
+#main-nav ul li{
+	display: inline-block;	
+}
+#main-nav ul li a{
+	display: block;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: Andika;
+}
+#main-nav ul li a:hover{
+	border-bottom: 2px solid #FFF;
+}
+/*************Content******************/
+#content{
+	width: 50%;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+/*************Article For Us***********/
+#for-us{
+	font-family: Arial;
+    color: #666666;
+}
+.article-header{
+	font-family: Lobster;
+	font-size: 42px;
+	color: #ed1c24;
+	padding-bottom: 10px;
+	padding-top: 40px;
+}
+#for-us-content{
+	background: #ffffff;
+    width: 71%;
+    border-radius: 10px;
+    float: left;
+}
+.article-paragraph{
+	padding-top: 20px;
+    padding-left: 20px;
+}
+.important-text{
+	font-family: "Arial  Bold";
+	color: #ed1c24;
+	font-weight: bolder;
+}
+.bold{
+	font-weight: bold;
+}
+@font-face {
+    font-family: "Arial Bold Italic";
+    src: url(arialbi.ttf);
+}
+#for-us-content h2{
+	font-size: 1.8em;
+	font-family: "Arial Bold Italic";
+	color: #848484;
+	padding-top: 20px;
+    padding-left: 20px;
+}
+/***************Section Products**************/
+#section-products{
+	float: left;
+	margin-left: 3px;
+    width: 28%;
+    background: #ffffff;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#section-products img{
+	width: 70px;
+	padding-left: 3%;
+}
+#img-trakiiski-kori{
+	width: 195px!important;
+    padding-left: 28px!important;
+    padding-left: 10%!important;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.widget{
+	padding-left: 20px;
+	padding-bottom: 35px;
+}
+.controlgroup h3{
+	float: left;
+	padding: 9px 16px;
+}
+.controlgroup button{
+	float: left;
+	border-radius: 15px;
+	padding-right: 180px;
+	background: url(button-choose.jpg);
+	background-size: 100% 100%;
+	color: #9a9a9a;
+	margin-right: 15px!important;
+}
+#ui-id-1-button{
+	border-radius: 15px!important;
+	background: url(button-choose.jpg);
+	background-size: 100% 100%;
+}
+#chosen{
+	margin-left: 15px;
+}
+.output{
+	margin-left: 15px;
+}
+/************Section Buletin********/
+.clear-float{
+	content: "";
+   	display: block; 
+   	clear: both;
+}
+.sections-img{
+	float: left;
+	width: 45%;
+	margin-right: 15px;
+}
+.news-content{
+	background: #ffffff;
+    /*margin-top: -232px;*/
+    /*width: 65%;*/
+    margin-top: 2px;
+    border-radius: 15px;
+    padding-bottom: 18px;
+}
+.news-content img{
+	float: left;
+	padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news-article-paragraph{
+	padding-top: 2px;
+    /*padding-left: 20px;*/
+    font-family: "Arial  Bold";
+	color: #ed1c24;
+	font-weight: bolder;
+}
+.news-paragraph{
+	padding-top: 12px!important;
+}
+.news-paragraph-second{
+	padding-top: 0px;
+}
+/************Section Recepies*************/
+.recipes-content{
+	background: #ffffff;
+    width: 240px;
+    border-radius: 15px;
+    padding-bottom: 55px;
+}
+.recipes-content img{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.important-text-recipes{
+	font-family: "Arial  Bold";
+	color: #ed1c24;
+	padding-left: 15px;
+	font-weight: bolder;
+}
+.recipes-paragraph{
+	padding-left: 15px;
+}
+.recipes-clock{
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.recipes-minutes{
+	float: left;
+	padding-top: 17px;
+}
+.recipes{
+	float: left;
+	padding-left: 2px;
+}
+.recipes-header-clear{
+	margin-top: 92px;
+}
+
+/************Categories*************/
+.categories{
+	margin-left: 9px;
+	width: 292px;
+	background: #ffffff;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	margin-top: 50px;
+	display: inline-block;
+	padding-top: 11px;
+}
+.categories-img{
+	border-radius: 10px;
+	float: left;
+}
+#buletin-img{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.categories-header{
+	font-family: Lobster;
+	font-size: 36px;
+	color: #6f6f6f;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 8px;
+}
+.categories-img-play{
+	float: left;
+	margin-top: 14px;
+}
+@font-face{
+	font-family: "Arial Italic";
+	src:url('ariali.ttf');
+	font-size: 14px;
+}
+#categories-paragraph-one{
+	font-family: "Arial Italic";
+	color: #666666;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 9px;
+	padding-bottom: 15px;
+}
+#categories-paragraph-two{
+	font-family: "Arial Italic";
+	color: #666666;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 6px;
+	padding-bottom: 15px;
+}
+#categories-paragraph-three{
+	font-family: "Arial Italic";
+	color: #666666;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+#categoires-career{
+	margin-left: 27px;	
+}
+/***************Footer********************/
+#footer{
+	width: 50%;
+	margin: 0 auto;
+}
+#footer-img{
+	margin-top: 44px;
+    max-width: 100%;
+}
+#footer-hr{
+	max-width: 100%;
+}
+#footer-nav nav ul li{
+	display: inline-block;
+}
+#footer-nav nav ul li a{
+	text-decoration: none;
+	color: #656565;
+	font-family: Tahoma;
+}
+.footer-nav-decoration:before{
+	content: "|"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+}
+.footer-nav-last{
+	color: #656565;
+	position: absolute;
+	right: 0; 
+	margin-right: 472px;
+}
+.footer-nav-last a{
+	text-decoration: underline!important;
+}
+/*************Button scroll to top******************/
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom: 0px;
+	right:40px;
+	display:none;
+	background: url('arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
