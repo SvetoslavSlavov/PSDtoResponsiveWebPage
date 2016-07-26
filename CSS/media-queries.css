@@ -1,0 +1,118 @@
+/********************************************************
+smaller than 1840
+********************************************************/
+@media screen and (max-width: 1840px){
+	#main-nav{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#main-nav ul{
+		box-shadow: none;
+		border-radius: 0px;
+	}
+}
+/*******************************************************
+smaller than 1575
+*******************************************************/
+@media screen and (max-width: 1575px){
+	#img-trakiiski-kori{
+		padding-left: 0px!important;
+	}
+	#section-products img{
+		padding-left: 0px;
+	}
+	#footer-nav nav ul li{
+		display: block;
+	}
+}
+/*********************************************************
+smaller than 980
+*********************************************************/
+@media screen and (max-width: 980px){
+	#header-nav{
+		margin-right: 0px;
+	}
+	#main-nav{
+	display: initial; 
+	}
+	#main-nav ul{
+		background: #ffffff;
+	}
+	#main-nav ul li{
+		display: block;
+	}
+	#main-nav ul li a{
+		color: #ec2931;
+		font-weight: bolder;
+	}
+	#main-nav ul li a:hover{
+		background: #fff200;
+	}
+	#section-products{
+		width: auto;
+	}
+	#section-products img{
+		padding-left: 0px;
+	}
+	#img-trakiiski-kori{
+		/*max-width: 100%;*/
+		padding-left: 0px!important;
+	}
+	.sections-img{
+		width: 100%;
+	}
+	.footer-nav-last{
+		display: block!important;
+	}
+	#footer-nav nav ul li{
+		margin: auto;
+	}
+}
+/*******************************************************
+smaller than 860
+*******************************************************/
+@media screen and (max-width: 860px){
+	#for-us-content{
+		width: initial;
+	}
+	.controlgroup button{
+		padding-right: 0px!important;
+	}
+	#for-us-content h2{
+		font-size: 1em;
+	}
+}
+/*******************************************************
+smaller than 650
+********************************************************/
+@media screen and (max-width: 487px){
+	#content{
+		width: initial;
+	}
+	img{
+		padding-left: 0px!important;
+	}
+	.recipes{
+		padding-left: 0px;
+	}
+	.recipes-content{
+		width: 100%;
+	}
+	.categories{
+		width: 100%;
+		margin-left: 0px;
+	}
+	#section-products{
+		margin-top: 2%;
+		margin-left: 0px;
+		width: 100%;
+	}
+	#section-products img{
+		width: initial;
+		margin-left: 5%;
+	}
+	#img-trakiiski-kori{
+		width: 100%!important;
+		margin-left: 0!important;
+	}
+}
